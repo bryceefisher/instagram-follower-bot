@@ -1,0 +1,6 @@
+from bot import InstagramBot
+
+bot = InstagramBot()
+
+bot.login()
+bot.find_followers()
